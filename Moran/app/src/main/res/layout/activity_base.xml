@@ -1,0 +1,47 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:background="@color/divide"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <RadioButton
+            android:id="@+id/squareRb"
+            android:checked="true"
+            style="@style/MTabStyle"
+            android:drawableTop="@drawable/square_button"
+            android:text="@string/square"
+            android:textColor="@drawable/text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/myRb"
+            style="@style/MTabStyle"
+            android:drawableTop="@drawable/my_button"
+            android:text="@string/me"
+            android:textColor="@drawable/text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <com.example.tomato.moran.RoundImageView
+        android:id="@+id/cameraButton"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/camera_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/divierline"
+        android:layout_gravity="center_horizontal|bottom" />
+
+
+</FrameLayout>

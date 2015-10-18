@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:clickable="false"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:text="@string/my"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/my_background"
+        android:layout_width="match_parent"
+        android:layout_height="158dp">
+
+        <com.example.tomato.moran.RoundImageView
+            android:layout_gravity="center"
+            android:id="@+id/comment_from_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/userhead" />
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:text="立即登录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:paddingTop="6dp"
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:text="cwyx5519@163.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:background="#d4d5d5"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_marginLeft="14dp"
+            android:id="@+id/myNickname"
+            android:layout_centerVertical="true"
+            android:src="@drawable/my_nickname"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/myNickname"
+            android:layout_centerVertical="true"
+            android:text="@string/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_marginLeft="48dp"
+        android:background="#d4d5d5"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_marginLeft="14dp"
+            android:id="@+id/myHeadImage"
+            android:layout_centerVertical="true"
+            android:src="@drawable/my_headimage"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/myHeadImage"
+            android:layout_centerVertical="true"
+            android:text="@string/head_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_marginLeft="48dp"
+        android:background="#d4d5d5"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_marginLeft="14dp"
+            android:id="@+id/mySignOut"
+            android:layout_centerVertical="true"
+            android:src="@drawable/my_signout"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/mySignOut"
+            android:layout_centerVertical="true"
+            android:text="@string/sign_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:background="#d4d5d5"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_marginLeft="14dp"
+            android:id="@+id/myRate"
+            android:layout_centerVertical="true"
+            android:src="@drawable/my_rate"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/myRate"
+            android:layout_centerVertical="true"
+            android:text="@string/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_marginLeft="48dp"
+        android:background="#d4d5d5"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_marginLeft="14dp"
+            android:id="@+id/myFollow"
+            android:layout_centerVertical="true"
+            android:src="@drawable/my_follow"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/myFollow"
+            android:layout_centerVertical="true"
+            android:text="@string/Follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_marginLeft="48dp"
+        android:background="#d4d5d5"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_marginLeft="14dp"
+            android:id="@+id/myHome"
+            android:layout_centerVertical="true"
+            android:src="@drawable/my_home"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/myHome"
+            android:layout_centerVertical="true"
+            android:text="@string/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_marginLeft="48dp"
+        android:background="#d4d5d5"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+
+
+
+
+
+</LinearLayout>

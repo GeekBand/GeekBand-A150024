@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:background="#ef7f42"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:src="@drawable/sign_logo"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="18dp"
+        android:textSize="14sp"
+        android:text="@string/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:background="@drawable/inputbox"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:text="@string/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:background="@drawable/inputbox"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="16sp"
+        android:text="@string/loginButton"
+        android:background="#ef7f42"
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:textSize="14sp"
+        android:text="@string/applyAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>
